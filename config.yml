@@ -1,0 +1,12 @@
+logging:
+  level: INFO
+  loggers:
+    com.TodoList: DEBUG
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: root
+  password: kalevinu
+  url: jdbc:mysql://host.docker.internal:3306/myapp
+  properties:
+    charSet: UTF-8
